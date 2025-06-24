@@ -4,4 +4,5 @@
 
 API usada
 API: iTunes Search API
-Documentação oficial: iTunes Search API Documentation
+
+Documentação oficial: [iTunes Search API Documentation](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/)
