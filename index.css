@@ -1,0 +1,57 @@
+
+body,
+html {
+    background-color: #1d1d1d;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.titulo {
+    display: inline-block;
+    background-color: #1DB954;
+    color: #191414;
+    padding: 10px 60px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#artistaName {
+    padding: 10px 15px;
+    border: 2px solid #1DB954;
+    border-radius: 8px;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    background-color: #121212;
+    color: white;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#artistaName:focus {
+    border-color: #1ed760;
+    box-shadow: 0 0 10px #1ed76055;
+}
+
+
+#submit {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #1DB954;
+    color: #191414;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s;
+}
+
+#submit:hover {
+    background-color: #1ed760;
+    transform: scale(1.05);
+}
